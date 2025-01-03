@@ -7,7 +7,7 @@ import PersonIcon from "@mui/icons-material/Person";
 
 const Navbar = () => {
   return (
-    <div className="h-[8%] bg-[#ecf8f7] mt-3 rounded-lg flex items-center px-5 mx-5">
+    <div className="h-[8%] bg-[#ffffff] mt-3 rounded-lg flex items-center px-5 mx-5">
       <div className="text-[#344767]">
         <Homeicon />
         <span> / Dashboard</span>
@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center gap-4 ml-auto">
-        <div className="flex items-center bg-white/40 rounded-lg px-3 py-2 border-gray-400 border-2">
+        <div className="flex items-center bg-gray-100 rounded-lg px-2 py-2 border-gray-400 border-2">
           <SearchIcon className="text-gray-600 text-xl" />
           <input
             type="text"

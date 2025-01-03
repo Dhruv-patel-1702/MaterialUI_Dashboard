@@ -21,7 +21,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-[280px] h-[97vh] bg-[#28282b] p-4 flex flex-col mt-3 ml-3 rounded-xl">
+    <div className="w-[270px] h-[97vh] bg-[#28282b] p-4 flex flex-col mt-3 ml-3 rounded-xl">
       <div className="flex items-center gap-3 px-3 mb-6">
         <img src="./assets/logo.svg" alt="logo" className="w-9" />
         <h2 className="text-white/90 text-lg font-medium">Dhruv Patel 1702</h2>
